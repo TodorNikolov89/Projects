@@ -1,0 +1,104 @@
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorAssemblyInfo.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorAssemblyInfo.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.AssemblyInfoInputs.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.AssemblyInfo.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.csprojAssemblyReference.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.deps.json
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.runtimeconfig.json
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.runtimeconfig.dev.json
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.dll
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.pdb
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.Views.dll
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.Views.pdb
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Data.dll
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Services.dll
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Data.pdb
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Services.pdb
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.TagHelpers.input.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.TagHelpers.output.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorCoreGenerate.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Cars\All.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Cars\ByMake.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Cars\Parts.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\All.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Create.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Edit.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\SalesByCustomer.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\_CustomerForm.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Parts\All.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Sales\GetAllDiscountedSales.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Sales\GetSaleById.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Sales\Index.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Suppliers\Suppliers.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorTargetAssemblyInfo.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.Views.pdb
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.csproj.CopyComplete
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.dll
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.pdb
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Parts\Create.cshtml.g.cs
+C:\Users\Todor's PC\source\repos\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Parts\_PartForm.cshtml.g.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.deps.json
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.runtimeconfig.json
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.runtimeconfig.dev.json
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.dll
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.pdb
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.Views.dll
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Web.Views.pdb
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Data.dll
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Services.dll
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Data.pdb
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\bin\Debug\netcoreapp2.2\CarDealer.Services.pdb
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.csprojAssemblyReference.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.csproj.CoreCompileInputs.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorAssemblyInfo.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorAssemblyInfo.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.AssemblyInfoInputs.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.AssemblyInfo.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.TagHelpers.input.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.TagHelpers.output.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorCoreGenerate.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Cars\All.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Cars\ByMake.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Cars\Parts.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\All.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Create.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Edit.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\SalesByCustomer.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Customers\_CustomerForm.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Parts\All.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Parts\Create.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Parts\_PartForm.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Sales\GetAllDiscountedSales.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Sales\GetSaleById.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Sales\Index.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\Suppliers\Suppliers.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorTargetAssemblyInfo.cache
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.RazorTargetAssemblyInfo.cs
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.Views.pdb
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.csproj.CopyComplete
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.dll
+D:\C#\Projects\CarDealer.Web\CarDealer.Web\obj\Debug\netcoreapp2.2\CarDealer.Web.pdb

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<SalesViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Sales</h1>
+
+
+<table class="table">
+    <thead>
+    <th>
+        Make
+    </th>
+    <th>
+        Model
+    </th>
+    <th>
+        Travelled Distance
+    </th>
+    <th>
+        Name
+    </th>
+    <th>
+        BirthDay
+    </th>
+    <th>
+        Is Young Driver
+    </th>
+    <th>
+        Price
+    </th>
+    <th>
+        Price With Dscount
+    </th>
+    <th>
+        Discount Percent
+    </th>
+    </thead>
+    <body>
+        @foreach (var sale in Model)
+        {
+            <tr>
+                <td>
+                    @sale.Car.Make
+                </td>
+                <td>
+                    @sale.Car.Model
+                </td>
+                <td>
+                    @(sale.Car.TravelledDistance / 1000)
+                </td>
+                <td>
+                    @sale.Customer.Name
+                </td>
+                <td>
+                    @sale.Customer.BirthDay
+                </td>
+                <td>
+                    @(sale.Customer.IsYoungDriver ? "YES" : "NO")
+                </td>
+                <td>
+                    @sale.Price
+                </td>
+                <td>
+                    @sale.PriceWithDiscount
+                </td>
+                <td>
+                    @(sale.DiscountPercent + " %")
+                </td>
+            </tr>
+        }
+    </body>
+</table>
+
