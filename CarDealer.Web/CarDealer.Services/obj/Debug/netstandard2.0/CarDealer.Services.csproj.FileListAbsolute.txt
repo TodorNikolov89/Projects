@@ -15,7 +15,6 @@ D:\C#\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDeal
 D:\C#\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Data.dll
 D:\C#\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Data.pdb
 D:\C#\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csprojAssemblyReference.cache
-D:\C#\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csproj.CoreCompileInputs.cache
 D:\C#\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.AssemblyInfoInputs.cache
 D:\C#\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.AssemblyInfo.cs
 D:\C#\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csproj.CopyComplete

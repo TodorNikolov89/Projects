@@ -22,6 +22,55 @@
             this.suppliers = suppliers;
         }
 
+        public IActionResult Delete(int id)
+        {
+            return this.View(id);
+        }
+
+        public IActionResult Edit(int id)
+        {
+            var part = this.parts.ById(id);
+
+            if (part == null)
+            {
+                return NotFound();
+            }
+
+            return View(new PartFormModel
+            {
+                Name = part.Name,
+                Price = part.Price,
+                Quantity = part.Quantity,
+                IsEdit = true
+            });
+        }
+
+        [HttpPost]
+        public IActionResult Edit(int id, PartFormModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                model.IsEdit = true;
+                return View(model);
+            }
+
+            this.parts.Edit(
+                id,
+                model.Price,
+                model.Quantity
+                );
+
+            return RedirectToAction(nameof(All));
+        }
+
+        public IActionResult Destroy(int id)
+        {
+            this.parts.Delete(id);
+
+            return RedirectToAction(nameof(All));
+        }
+
+
         public IActionResult All(int page = 1)
             => View(new PartPageListingModel
             {

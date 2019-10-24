@@ -18,9 +18,13 @@
 
             CreateMap<CarModel, CarViewModel>().ReverseMap();
 
+            CreateMap<CarModel, CarFormModel>().ReverseMap();
+
             CreateMap<CustomerModel, CustomerViewModel>().ReverseMap();
 
             CreateMap<SalesModelById, SaleIdInfoViewModel>().ReverseMap();
+
+
         }
     }
 }

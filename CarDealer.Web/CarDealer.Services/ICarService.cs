@@ -8,6 +8,14 @@
 
         IEnumerable<CarWithPartsModel> Parts();
 
-        ICollection<CarModel> GetAllCars();
+        void Create(string make, string model, long travelledDistance);
+
+        void Delete(int id);
+
+        CarModel ById(int id);
+
+        IEnumerable<CarModel> GetAllCars();
+
+        void Edit(int id, string make, string model, long travelledDistance);
     }
 }

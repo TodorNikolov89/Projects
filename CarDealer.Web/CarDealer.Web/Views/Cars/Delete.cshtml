@@ -1,0 +1,9 @@
+﻿@model int
+@{
+    ViewData["Title"] = "Delete Car";
+}
+
+<h1>Are you sure you want to delete this car?</h1>
+
+<a href="/cars/all" class="btn btn-sm">Back</a>
+<a href="/cars/destroy/@Model" class="btn btn-danger btn-sm">Confirm Delete</a>

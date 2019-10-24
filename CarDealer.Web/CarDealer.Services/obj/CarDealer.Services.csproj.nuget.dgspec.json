@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj": {}
+    "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
+    "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
+        "projectUniqueName": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
         "projectName": "CarDealer.Data",
-        "projectPath": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
+        "projectPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
         "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Data\\obj\\",
+        "outputPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj": {
+    "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
+        "projectUniqueName": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
         "projectName": "CarDealer.Services",
-        "projectPath": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
+        "projectPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
         "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Services\\obj\\",
+        "outputPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,8 +96,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
-                "projectPath": "C:\\Users\\Todor's PC\\source\\repos\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj"
+              "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
+                "projectPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj"
               }
             }
           }

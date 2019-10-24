@@ -46,25 +46,30 @@
             <th>
                 Supplier Name
             </th>
+            
         </tr>
     </thead>
     <tbody>
         @foreach (var part in Model.Parts)
         {
-            <tr>
-                <th>
-                    @part.Name
-                </th>
-                <th>
-                    @part.Price
-                </th>
-                <th>
-                    @part.Quantity
-                </th>
-                <th>
-                    @part.SupplierName
-                </th>
-            </tr>
+        <tr>
+            <th>
+                @part.Name
+            </th>
+            <th>
+                @part.Price
+            </th>
+            <th>
+                @part.Quantity
+            </th>
+            <th>
+                @part.SupplierName
+            </th>
+            <td>
+                <a class="btn btn-danger btn-sm" href="/parts/delete/@part.Id">Delete</a>
+                <a class="btn btn-warning btn-sm" href="/parts/edit/@part.Id">Edit</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>

@@ -1,5 +1,4 @@
-﻿
-namespace CarDealer.Web.Controllers
+﻿namespace CarDealer.Web.Controllers
 {
     using AutoMapper;
     using CarDealer.Services;
@@ -8,10 +7,12 @@ namespace CarDealer.Web.Controllers
     using System.Collections.Generic;
     using System.Linq;
 
+    [Route("cars")]
     public class CarsController : Controller
     {
         private readonly ICarService cars;
         private readonly IMapper mapper;
+
         public CarsController(IMapper mapper, ICarService cars)
         {
             this.mapper = mapper;
@@ -19,7 +20,7 @@ namespace CarDealer.Web.Controllers
         }
 
 
-        [Route("cars/{make}")]
+        [Route("{make}")]
         public IActionResult ByMake(string make)
         {
             var cars = this.cars.ByMake(make);
@@ -31,12 +32,87 @@ namespace CarDealer.Web.Controllers
             });
         }
 
+        [Route(nameof(Delete) + "/{id}")]
+        public IActionResult Delete(int id)
+               => View(id);
+
+
+
+        [Route(nameof(Destroy) + "/{id}")]
+        public IActionResult Destroy(int id)
+        {
+            this.cars.Delete(id);
+
+            return RedirectToAction(nameof(All));
+        }
+
+        [Route(nameof(Create))]
+        public IActionResult Create()
+        {
+            return this.View();
+        }
+
+        [HttpPost]
+        [Route(nameof(Create))]
+        public IActionResult Create(CarFormModel carModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(carModel);
+            }
+
+            this.cars.Create(
+                carModel.Make,
+                carModel.Model,
+                carModel.TravelledDistance
+                );
+
+            return RedirectToAction(nameof(All));
+        }
+
+
+        [Route("parts", Order = 1)]
         public IActionResult Parts()
         {
             return View(this.cars.Parts());
         }
 
+        [Route(nameof(Edit) + "/{id}")]
+        public IActionResult Edit(int id)
+        {
+            var car = this.cars.ById(id);
 
+            if (car == null)
+            {
+                return NotFound();
+            }
+
+            CarFormModel carToEdit = mapper.Map<CarFormModel>(car);
+
+            return View(carToEdit);
+        }
+
+        [HttpPost]
+        [Route(nameof(Edit) + "/{id}")]
+        public IActionResult Edit(int id, CarFormModel carModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                carModel.IsEdit = true;
+                return View(carModel);
+            }
+
+            this.cars.Edit(
+                id,
+                carModel.Make,
+                carModel.Model,
+                carModel.TravelledDistance
+                );
+
+            return RedirectToAction(nameof(All));
+        }
+
+        [Route(nameof(All))]
         public IActionResult All()
         {
             var allCars = cars.GetAllCars();

@@ -20,7 +20,10 @@
         }
 
         [Route(nameof(Create))]
-        public IActionResult Create() => View();
+        public IActionResult Create()
+        {
+            return View();
+        }
 
         [HttpPost]
         [Route(nameof(Create))]
