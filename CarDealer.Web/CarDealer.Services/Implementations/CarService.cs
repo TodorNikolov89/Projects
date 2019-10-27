@@ -92,11 +92,13 @@
             this.db.SaveChanges();
         }
 
-        public IEnumerable<CarModel> GetAllCars()
+        public IEnumerable<CarModel> GetAllCars(int page = 1, int pageSize = 10)
         {
             var allCars = this.db
                 .Cars
                 .OrderByDescending(c => c.Id)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
                 .Select(c => new CarModel
                 {
                     Make = c.Make,
@@ -122,5 +124,9 @@
             })
         })
             .ToList();
+
+        public int Total()
+        => this.db
+            .Cars.Count();
     }
 }

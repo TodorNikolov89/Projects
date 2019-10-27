@@ -4,14 +4,15 @@
     using CarDealer.Services;
     using CarDealer.Web.Models.Cars;
     using Microsoft.AspNetCore.Mvc;
+    using System;
     using System.Collections.Generic;
-    using System.Linq;
 
     [Route("cars")]
     public class CarsController : Controller
     {
         private readonly ICarService cars;
         private readonly IMapper mapper;
+        private const int PageSize = 25;
 
         public CarsController(IMapper mapper, ICarService cars)
         {
@@ -113,13 +114,12 @@
         }
 
         [Route(nameof(All))]
-        public IActionResult All()
+        public IActionResult All(int page = 1)
+        => View(new CarsPageListingModel
         {
-            var allCars = cars.GetAllCars();
-
-            IEnumerable<CarViewModel> carsInfo = mapper.Map<IEnumerable<CarViewModel>>(allCars);
-
-            return View(carsInfo);
-        }
+            Cars = this.cars.GetAllCars(page, PageSize),
+            CurrentPage = page,
+            TotalPages = (int)Math.Ceiling(this.cars.Total() / (double)PageSize)
+        });
     }
 }

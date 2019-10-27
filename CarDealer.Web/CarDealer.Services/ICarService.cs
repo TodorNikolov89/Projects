@@ -14,8 +14,10 @@
 
         CarModel ById(int id);
 
-        IEnumerable<CarModel> GetAllCars();
+        IEnumerable<CarModel> GetAllCars(int page = 1, int pageSize = 10);
 
         void Edit(int id, string make, string model, long travelledDistance);
+
+         int Total();
     }
 }
