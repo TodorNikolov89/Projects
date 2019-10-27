@@ -91,7 +91,7 @@
             return RedirectToAction(nameof(All), new { order = OrderDirection.Ascending });
         }
 
-        [Route("all/{order}")]
+        [Route(nameof(All) + "/{order}")]
         public IActionResult All(string order)
         {
             var orderDirection = order.ToLower() == "descending"

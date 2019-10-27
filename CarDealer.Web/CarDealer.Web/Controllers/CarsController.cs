@@ -72,7 +72,7 @@
         }
 
 
-        [Route("parts", Order = 1)]
+        [Route(nameof(Parts), Order = 1)]
         public IActionResult Parts()
         {
             return View(this.cars.Parts());
