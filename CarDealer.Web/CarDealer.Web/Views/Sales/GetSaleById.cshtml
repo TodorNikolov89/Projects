@@ -1,0 +1,43 @@
+﻿@model SaleIdInfoViewModel
+@{
+    ViewData["Title"] = "GetSaleById";
+}
+
+<h1> Get Sale By Id</h1>
+
+<table class="table table-hover table-bordered">
+
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Car Make
+            </th>
+            <th>
+                Car Model
+            </th>
+            <th>
+                Customer Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <th>
+                @Model.Id
+            </th>
+            <th>
+                @Model.Car.Make
+            </th>
+            <th>
+                @Model.Car.Model
+            </th>
+            <th>
+                @Model.Customer.Name
+            </th>
+        </tr>
+    </tbody>
+</table>
