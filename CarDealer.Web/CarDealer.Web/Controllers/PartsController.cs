@@ -22,13 +22,12 @@
             this.suppliers = suppliers;
         }
 
-        [Route(nameof(Delete))]
         public IActionResult Delete(int id)
         {
             return this.View(id);
         }
 
-        [Route(nameof(Edit))]
+     
         public IActionResult Edit(int id)
         {
             var part = this.parts.ById(id);
@@ -65,7 +64,6 @@
             return RedirectToAction(nameof(All));
         }
 
-        [Route(nameof(Destroy))]
         public IActionResult Destroy(int id)
         {
             this.parts.Delete(id);
@@ -82,14 +80,13 @@
                 TotalPages = (int)Math.Ceiling(this.parts.Total() / (double)PageSize)
             });
 
-        [Route(nameof(Create))]
+
         public IActionResult Create() => View(new PartFormModel
         {
             Suppliers = GetSupplierListItems()
         });
 
         [HttpPost]
-        [Route(nameof(Create))]
         public IActionResult Create(PartFormModel model)
         {
             if (!ModelState.IsValid)
