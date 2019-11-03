@@ -4,10 +4,10 @@
     ViewData["Title"] = "All Parts";
 }
 
-    <h1>
-        @ViewData["Title"]
-        <a class="btn btn-primary" href="/parts/create">Add Part</a>
-    </h1>
+<h1>
+    @ViewData["Title"]
+    <a class="btn btn-primary" href="/parts/create">Add Part</a>
+</h1>
 
 @{
     var previousDisabled = Model.CurrentPage == 1 ? "dislabled" : String.Empty;
@@ -46,30 +46,30 @@
             <th>
                 Supplier Name
             </th>
-            
+
         </tr>
     </thead>
     <tbody>
         @foreach (var part in Model.Parts)
         {
-        <tr>
-            <th>
-                @part.Name
-            </th>
-            <th>
-                @part.Price
-            </th>
-            <th>
-                @part.Quantity
-            </th>
-            <th>
-                @part.SupplierName
-            </th>
-            <td>
-                <a class="btn btn-danger btn-sm" href="/parts/delete/@part.Id">Delete</a>
-                <a class="btn btn-warning btn-sm" href="/parts/edit/@part.Id">Edit</a>
-            </td>
-        </tr>
+            <tr>
+                <th>
+                    @part.Name
+                </th>
+                <th>
+                    @part.Price
+                </th>
+                <th>
+                    @part.Quantity
+                </th>
+                <th>
+                    @part.SupplierName
+                </th>
+                <td>
+                    <a href="/parts/delete/@part.Id" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="/parts/edit/@part.Id" class="btn btn-warning btn-sm">Edit</a>
+                </td>
+            </tr>
         }
     </tbody>
 </table>
