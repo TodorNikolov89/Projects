@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\u998718\\source\\repos\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj": {}
+    "D:\\C#\\Projects\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\u998718\\source\\repos\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj": {
+    "D:\\C#\\Projects\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\u998718\\source\\repos\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj",
+        "projectUniqueName": "D:\\C#\\Projects\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj",
         "projectName": "IdentityDemo",
-        "projectPath": "C:\\Users\\u998718\\source\\repos\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj",
-        "packagesPath": "C:\\Users\\u998718\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\u998718\\source\\repos\\IdentityDemo\\IdentityDemo\\obj\\",
+        "projectPath": "D:\\C#\\Projects\\IdentityDemo\\IdentityDemo\\IdentityDemo.csproj",
+        "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\Projects\\IdentityDemo\\IdentityDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\u998718\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Todor's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

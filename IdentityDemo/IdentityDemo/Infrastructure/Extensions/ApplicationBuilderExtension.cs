@@ -10,6 +10,7 @@ namespace IdentityDemo.Infrastructure.Extensions
 {
     public static class ApplicationBuilderExtension
     {
+        //Administrator access
         public static IApplicationBuilder UseDatabaseMigration(this IApplicationBuilder app)
         {
             using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
