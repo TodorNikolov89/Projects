@@ -1,0 +1,9 @@
+﻿using Microsoft.AspNetCore.Builder;
+
+namespace IdentityDemo.Infrastructure.Extensions
+{
+    public class ApplicationBuilderExtension
+    {
+        public static IApplicationBuilder
+    }
+}
