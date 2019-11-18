@@ -3940,23 +3940,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Todor's PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Todor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
+      "projectUniqueName": "D:\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
       "projectName": "CarDealer.Services",
-      "projectPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
-      "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Services\\obj\\",
+      "projectPath": "D:\\Projects\\CarDealer.Web\\CarDealer.Services\\CarDealer.Services.csproj",
+      "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\CarDealer.Web\\CarDealer.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Todor's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Todor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3969,8 +3969,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
-              "projectPath": "D:\\C#\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj"
+            "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
+              "projectPath": "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj"
             }
           }
         }

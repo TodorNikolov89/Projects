@@ -8,6 +8,7 @@
     using Microsoft.AspNetCore.Mvc.Rendering;
     using System.Collections.Generic;
 
+    [Route("parts")]
     public class PartsController : Controller
     {
         private readonly IPartService parts;
@@ -22,12 +23,14 @@
             this.suppliers = suppliers;
         }
 
+        [Route(nameof(Delete) + "/{id}")]
         public IActionResult Delete(int id)
         {
             return this.View(id);
         }
 
-     
+
+        [Route(nameof(Edit) + "/{id}")]
         public IActionResult Edit(int id)
         {
             var part = this.parts.ById(id);
@@ -47,6 +50,7 @@
         }
 
         [HttpPost]
+        [Route(nameof(Edit) + "/{id}")]
         public IActionResult Edit(int id, PartFormModel model)
         {
             if (!ModelState.IsValid)
@@ -64,6 +68,7 @@
             return RedirectToAction(nameof(All));
         }
 
+        [Route(nameof(Destroy) + "/{id}")]
         public IActionResult Destroy(int id)
         {
             this.parts.Delete(id);
@@ -81,12 +86,14 @@
             });
 
 
+        [Route(nameof(Create))]
         public IActionResult Create() => View(new PartFormModel
         {
             Suppliers = GetSupplierListItems()
         });
 
         [HttpPost]
+        [Route(nameof(Create))]
         public IActionResult Create(PartFormModel model)
         {
             if (!ModelState.IsValid)
