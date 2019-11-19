@@ -1,10 +1,9 @@
-﻿using CarDealer.Data.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
-namespace CarDealer.Web.Data
+﻿namespace CarDealer.Web.Data
 {
+    using CarDealer.Data.Models;
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
+
     public class CarDealerDbContext : IdentityDbContext<User>
     {
         public CarDealerDbContext(DbContextOptions<CarDealerDbContext> options)
