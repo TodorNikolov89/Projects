@@ -31,3 +31,14 @@ D:\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.
 D:\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csproj.CopyComplete
 D:\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.dll
 D:\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.pdb
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Services.deps.json
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Services.dll
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Services.pdb
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Data.dll
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\bin\Debug\netstandard2.0\CarDealer.Data.pdb
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csprojAssemblyReference.cache
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.AssemblyInfoInputs.cache
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.AssemblyInfo.cs
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.csproj.CopyComplete
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.dll
+E:\Todor\Projects\CarDealer.Web\CarDealer.Services\obj\Debug\netstandard2.0\CarDealer.Services.pdb

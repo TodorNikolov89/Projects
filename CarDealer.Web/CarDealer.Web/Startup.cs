@@ -14,6 +14,8 @@
     using Services.Implementations;
     using AutoMapper;
     using CarDealer.Web.Common.Profiles;
+    using CarDealer.Web.Infrastructure.Extensions;
+    using CarDealer.Data.Models;
 
     public class Startup
     {
@@ -37,15 +39,16 @@
             services.AddDbContext<CarDealerDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options =>
+            services.AddIdentity<User, IdentityRole>(options =>
             {
                 options.Password.RequireLowercase = false;
-                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireDigit = false;
             })
                 .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<CarDealerDbContext>();
+                .AddEntityFrameworkStores<CarDealerDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<ICarService, CarService>();
@@ -55,7 +58,7 @@
 
             services.AddTransient<IMapper, Mapper>();
 
-            var config = new AutoMapper.MapperConfiguration(cfg =>
+            var config = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new DomainProfile());
             });
@@ -67,9 +70,10 @@
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseDatabaseMigration();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -78,7 +82,6 @@
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 

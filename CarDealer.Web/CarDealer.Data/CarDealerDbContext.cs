@@ -1,10 +1,11 @@
 ﻿using CarDealer.Data.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarDealer.Web.Data
 {
-    public class CarDealerDbContext : IdentityDbContext
+    public class CarDealerDbContext : IdentityDbContext<User>
     {
         public CarDealerDbContext(DbContextOptions<CarDealerDbContext> options)
             : base(options)

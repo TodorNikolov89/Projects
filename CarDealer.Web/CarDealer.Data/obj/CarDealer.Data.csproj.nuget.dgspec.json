@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {}
+    "E:\\Todor\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
+    "E:\\Todor\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
+        "projectUniqueName": "E:\\Todor\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
         "projectName": "CarDealer.Data",
-        "projectPath": "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
-        "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\CarDealer.Web\\CarDealer.Data\\obj\\",
+        "projectPath": "E:\\Todor\\Projects\\CarDealer.Web\\CarDealer.Data\\CarDealer.Data.csproj",
+        "packagesPath": "C:\\Users\\u998718\\.nuget\\packages\\",
+        "outputPath": "E:\\Todor\\Projects\\CarDealer.Web\\CarDealer.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Todor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\u998718\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
