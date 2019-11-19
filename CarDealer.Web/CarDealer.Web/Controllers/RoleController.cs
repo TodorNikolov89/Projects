@@ -2,9 +2,12 @@
 {
     using System.Linq;
     using System.Threading.Tasks;
+    using CarDealer.Web.Infrastructure;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
 
+    [Authorize(Roles = GlobalConstants.AdministratorRole)]
     public class RoleController : Controller
     {
         readonly RoleManager<IdentityRole> roleManager;
@@ -35,5 +38,7 @@
             await roleManager.CreateAsync(role);
             return RedirectToAction("Index");
         }
+
+       
     }
 }
