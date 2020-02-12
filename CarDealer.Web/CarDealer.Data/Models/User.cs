@@ -1,6 +1,9 @@
-﻿namespace CarDealer.Data.Models
+﻿
+namespace CarDealer.Data.Models
 {
     using Microsoft.AspNetCore.Identity;
+
+
     public class User : IdentityUser
     {
         public string FirstName { get; set; }
